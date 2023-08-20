@@ -34,12 +34,40 @@ ul, li, a {
     font-family: 'Roboto', sans-serif;
     color: rgba(46, 47, 66, 1);
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5; /* Change to 1.5 for line height */
     letter-spacing: 0.02em; /* Apply only to nav links */
 }
 
 .nav-item > .nav-link:hover,
 .nav-item > .nav-link:focus {
-    color: #404BBf;
+    color: #404BBF; /* Correct the case of the color value */
     text-decoration: underline;
+}
+
+/* Apply styles to the address and contact links */
+.address {
+    font-style: normal;
+}
+
+.contact-item > a {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5; /* Change to 1.5 for line height */
+    color: #434455;
+}
+
+.contact-item > a:hover,
+.contact-item > a:focus {
+    color: #404BBF; /* Correct the case of the color value */
+}
+
+/* Apply styles to the span inside the logo */
+.logo-web .studio {
+    color: #2E2F42;
+}
+
+/* Apply styles to the footer logo */
+.footer-logo .footer-studio {
+    color: #2E2F42;
 }
