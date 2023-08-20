@@ -8,8 +8,8 @@ ul, li, a {
     text-decoration: none;
     list-style-type: none;
 }
-
-.logo-web, .studio, .footer-logo, .footer-studio {
+/* Header */
+.logo-web, .studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -26,25 +26,26 @@ ul, li, a {
     color: #2E2F42;
 }
 
-.nav-item > .nav-link {
+.nav-link {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
 
-.nav-item > .nav-link:hover,
-.nav-item > .nav-link:focus {
-    color: #404bbf;
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBf;
     text-decoration: underline;
 }
+
 .contacts {
     font-style: normal;
 }
-.contact-item > .contact-email, .contact-phone {
+
+.contact-email, .contact-phone {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -52,105 +53,113 @@ ul, li, a {
     color: rgba(67, 68, 85, 1);
 }
 
-.contact-item > .contact-email:hover,
-.contact-item > .contact-email:focus {
-    color: #404BBf;
-}
-.contact-item > .contact-phone:hover,
-.contact-item > .contact-phone:focus {
+.contact-email:hover,
+.contact-email:focus,
+.contact-phone:hover,
+.contact-phone:focus {
     color: #404BBf;
 }
 
 /* Main header */
 .main-header {
-    background: rgba(46, 47, 66, 1);
+    background-color: #2e2f42;
 }
 
-.main-header > .main-title {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+.main-title {
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
 .main-btn {
     font-family: 'Roboto', sans-serif;
     background-color: #4D5AE5;
-    color: white;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
 .main-btn:hover,
 .main-btn:focus {
-    background-color: rgba(77, 90, 229, 1);
+    background-color: #404BBF;
 }
-
 /* Description */
-.description-item > .description-title {
+.description-title {
     font-family: 'Roboto', sans-serif;
-    color: rgba(46, 47, 66, 1);
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.description-item > .description-paragraph {
+.description-paragraph {
     font-family: 'Roboto', sans-serif;
-    color: rgba(67, 68, 85, 1);
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-
 /* Our Team Card */
-.team-card > .our-team-cards {
+.our-team-cards {
     font-family: 'Roboto', sans-serif;
-    color: rgba(46, 47, 66, 1);
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .card-item .name {
     font-family: 'Roboto', sans-serif;
-    color: rgba(46, 47, 66, 1);
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.card-item > .card-paragraph {
+.card-paragraph {
     font-family: 'Roboto', sans-serif;
-    color: rgba(67, 68, 85, 1);
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+
 
 /* Footer */
 .footer {
-    background: rgba(46, 47, 66, 1);
+    background-color: #2e2f42;
 }
 
-.footer-studio {
-    color: #2E2F42;
-}
-
-.footer-studio, .footer > .footer-paragraph {
-    font-family: 'Roboto', sans-serif;
+.footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.footer > .footer-paragraph {
-    color: rgba(244, 244, 253, 1);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+.footer-studio {
+    color: #f4f4fd;
 }
+
+.footer-paragraph {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 18px;
+}
+
