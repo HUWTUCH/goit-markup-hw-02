@@ -41,7 +41,7 @@ ul, li, a {
     color: #404bbf;
     text-decoration: underline;
 }
-address {
+.contacts {
     font-style: normal;
 }
 .contact-item > a {
