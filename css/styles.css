@@ -1,0 +1,140 @@
+body {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    background-color: white;
+    color: #434455;
+}
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+.logo-web {
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+.studio {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+.nav-list {
+}
+
+.nav-item > .nav-link {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+    line-height: 24px;
+}
+.nav-item > .nav-link:hover,
+.nav-item > .nav-link:focus{
+    color: #404BBf;
+    text-decoration: underline;
+}
+.contact-address {
+}
+
+.contact-list {
+}
+
+.contact-item > a {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(67, 68, 85, 1);
+}
+.contact-item > a:hover,
+.contact-item > a:focus {
+    color: #404BBf;
+}
+
+/*Main header*/
+.main-header {
+    background: rgba(46, 47, 66, 1);
+}
+.main-header > h1 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 56px;
+    line-height: 60px;
+}
+.main-btn {
+    font-family: 'Roboto';
+    width: 169px;
+    height: 56px;
+    background-color: #4D5AE5;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+.main-btn:hover,
+.main-btn:focus {
+    background-color: rgba(77, 90, 229, 1);
+}
+/* Description */
+.description-item > h3 {
+    font-family: 'Roboto';
+    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.description-item > p {
+    font-family: 'Roboto';
+    color: rgba(67, 68, 85, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Our Team Card */
+.team-card > h2 {
+    font-family: 'Roboto';
+    color: rgba(46, 47, 66, 1);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card-item .name {
+    font-family: 'Roboto';
+    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.card-item > p {
+    font-family: 'Roboto';
+    color: rgba(67, 68, 85, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Footer*/
+.footer-logo {
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+footer {
+    background: rgba(46, 47, 66, 1);
+}
+.footer-studio {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+footer > p {
+    font-family: 'Roboto';
+    color: rgba(244, 244, 253, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
