@@ -107,6 +107,9 @@ ul, li, a {
     letter-spacing: 0.02em;
 }
 /* Our Team Card */
+.team-card {
+    background-color: #F4F4FD;
+}
 .our-team-cards {
     font-family: 'Roboto', sans-serif;
     color: #2e2f42;
@@ -115,8 +118,11 @@ ul, li, a {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
-
+.card-item {
+    background-color: #FFFFFF;
+}
 .card-item .name {
     font-family: 'Roboto', sans-serif;
     color: #2e2f42;
